@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/028852263d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+         <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#ContactMe">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    <div class="firstSection">
+        <div class="left">
+            Hi!I am <span class="purple">Aman </span><br>A <span class="purple"><i>Web</i> Developer.</span>
+            <div>
+                <button>Download CV</button>
+                <button><a href="#ContactMe">Contact Me</a></button>
+            </div> 
+        </div>
+        <div class="right">
+            <img src="dev_img.png" alt="developer image">
+        </div>
+    </div>
+    <section id="About">
+        <div class="picture">
+            <img src="myself.png" alt="My Image">
+        </div>
+        <div class="text">
+            <h1><span class="me">About Myself<span></span></h1>
+            <p>Hey there!!! I am Aman kumar currently pursuing a bachelors in Computer Science.<br>I love to see my code
+                in action adding values to peoples life,<br>I believe happiness is a matter of choice and we should work
+                hard to achieve it.<br>Besides adding buttons to website's I like to play fps games <br>and I love hanging
+                out with my friends.</p>
+        </div>
+    </section>
+    <section id="Skills">
+        <div class="description">
+            <h2>SkillSet</h2>By going through documentation and watching some tutorials I have acquired these skills
+        </div>
+        <div class="frontEnd">
+            <h2>FrontEnd</h2>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-brands fa-bootstrap"></i> BootStrap</li>
+            </ul>
+        </div>
+        <div class="tools">
+            <h2>Tools & kits</h2>
+            <ul>
+                <li><i class="fa-brands fa-git"></i> Git</li>
+                <li><i class="fa-brands fa-github"></i> Bash</li>
+                <li><i class="fa-brands fa-figma"></i> Figma</li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>Programming</h2>
+            <ul>
+                <li><i class="fa-brands fa-java"></i> Java</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-solid fa-c"></i> C</li>
+                <li><i class="fa-brands fa-python"></i> Python</li>
+            </ul>
+        </div>
+    </section>
+    <section id="ContactMe">
+        <div class="text">
+                Lets chat<br>
+                Tell me about your project<br>
+                Lets create something Together.
+        </div>
+        <div class="forms">
+            <h1>Send Me a Message</h1>
+            <form action="mailto:amankun77@hotmail.com" method="post" enctype="text/plain">
+                <input type="text" id="fullname" placeholder="Full Name"required><br>
+                <input type="email" id="Email" placeholder="Email" required><br>
+                <input type="text" id="Subject" placeholder="Subject"><br>
+                <h3>Your Message.</h3>
+                <textarea name="message">
+                    
+                </textarea><br>
+                <input type="submit" class="formbut" value="Send Message">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <ul>
+                <li><a href="https://twitter.com/amankun77"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aman-kumar-536406223/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a><i class="fa-brands fa-discord"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
