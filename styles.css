@@ -220,8 +220,8 @@ footer li{
       pointer-events:none;
     }
     .open{
-      clip-path:circle(1500px at 90% -10%);
-      -webkit-clip-path:circle(1500px at 90% -10%);
+      clip-path:circle(1200px at 90% -10%);
+      -webkit-clip-path:circle(1200px at 90% -10%);
       pointer-events:all;
     }
      .firstSection{
